@@ -1,0 +1,80 @@
+.home-top{
+    width: 100%;
+    height: 80vh;
+}
+
+.home-button{
+    margin-left: 1210px;
+    padding-top: 90px;
+
+}
+.home-button .button1{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.home-table{
+    margin-left: 300px;
+    padding-top: 10px;
+
+}
+
+table ,td, th{
+    border-bottom: 1px solid #000;
+}
+table{
+    border-collapse:collapse ;
+    width: 80%;
+  
+}
+
+th{
+     background: #000;
+     color: #fff;
+     font-size: 1.2rem;
+     font-weight: 500;
+     padding: 5px;
+}
+td{
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.button2{
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button3{
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button4{
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
