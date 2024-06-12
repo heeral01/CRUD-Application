@@ -19,22 +19,30 @@
     text-transform: uppercase;
 }
 
-span{
+h1 span{
     color: #000;
 }
 
-.main-menu{
-    cursor: pointer;
-    text-decoration: none;
-    color:#000;
-    font-weight: 500;
-    text-transform: uppercase;
-}
 
 .main-nav .main-search{
     margin-right: 50px;
 }
 
+.main-menu{
+    text-decoration: none;
+    
+}
+.main-menu a{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.main-menu:hover {
+    opacity: 0.7;
+}
 .main-search .search{
     width: 70%;
     height: 30px;
@@ -58,5 +66,4 @@ span{
     cursor: pointer;
     position: absolute;
     right: 100px;
- 
 }

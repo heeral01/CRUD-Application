@@ -14,9 +14,17 @@
     border: none;
     outline: none;
     background: blue;
-    color: #fff;
     cursor: pointer;
     border-radius: 4px;
+}
+.home-button .button1 a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.home-button .button1:hover{
+    opacity: 0.7;
 }
 
 .home-table{

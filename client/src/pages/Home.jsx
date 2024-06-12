@@ -10,7 +10,7 @@ function Home() {
     <>
     <div className="home-top">
       <div className="home-button">
-        <button type="button" className='button1'>+Add Data</button>
+        <button type="button" className='button1'><a href='/data'>+Add Data</a></button>
       </div>
       <div className="home-table">
         <table>

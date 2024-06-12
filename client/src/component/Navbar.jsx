@@ -1,23 +1,30 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
-import './Navbar.css'
+import "./Navbar.css";
 function Navbar() {
   return (
-     <>
-     <nav className='main-nav'>
-       <div className="logo">
-        <h1><span>C</span>rud-<span>A</span>pplication</h1>
-       </div>
-       <div className="main-menu">
-        <h2>Home</h2>
-       </div>
-       <div className="main-search">
-        <input type="text" placeholder='Search' className='search' />
-        <button type="button"><IoSearch /></button>
-       </div>
-     </nav>
-     </>
-  )
+    <>
+      <nav className="main-nav">
+        <div className="logo">
+          <h1>
+            <span>C</span>rud-<span>A</span>pplication
+          </h1>
+        </div>
+        <div className="main-menu">
+          <a href="/">
+            Home
+          </a>
+        </div>
+        <div className="main-search">
+          <input type="text" placeholder="Search" className="search" />
+          <button type="button">
+            <IoSearch />
+          </button>
+        </div>
+      </nav>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
