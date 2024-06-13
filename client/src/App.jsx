@@ -2,7 +2,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import React from 'react';
 import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
-import Data from "./pages/Data";
+import Register from "./pages/Register";
+import Edit from "./pages/Edit";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     <Navbar/>
     <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/data" element={<Data/>}/>
+        <Route path="/register" element={<Register />}/>
+        <Route path="/edit/:id" element={<Edit/>}/>
     </Routes>
     </BrowserRouter>
     </>
