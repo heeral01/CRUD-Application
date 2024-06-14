@@ -30,9 +30,9 @@ function Home() {
             <td>heeral@gmail.com</td>
             <td>MERN Stack</td>
             <td>1234567890</td>
-            <td><button className='button2'><IoEyeSharp /></button></td>
-            <td><button className='button3'><GoPencil /></button></td>
-            <td><button className='button4'><MdDeleteOutline /></button></td>
+            <td><button className='button2'><IoEyeSharp size='20px' /></button></td>
+            <td><button className='button3'><GoPencil size='20px'/></button></td>
+            <td><button className='button4'><MdDeleteOutline size='20px'/></button></td>
           </tr>
         </table>
       </div>

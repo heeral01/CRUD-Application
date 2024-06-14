@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Edit from "./pages/Edit";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/register" element={<Register />}/>
         <Route path="/edit/:id" element={<Edit/>}/>
+        <Route path="/view/:id" element={<Detail/>} />
     </Routes>
     </BrowserRouter>
     </>

@@ -1,0 +1,49 @@
+.detail-top{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.detail-card{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    border-radius: 4px;
+   
+}
+
+.card-left{
+    margin-top: 30px;
+}
+.card-left h3 span{
+    font-weight: 100px;
+}
+.card-left h3{
+    margin-top: 10px;
+}
+
+.card-left p{
+    margin-top: 10px;
+}
+.card-right{
+    margin-top: 30px;
+}
+.card-right .button3{
+   margin-left: 250px;
+}
+.card-right button{
+    margin: 2px;
+}
+.card-right p{
+    margin-top: 10px;
+}
+
+.card-right{
+    margin-left: 30px;
+}
+
+span{
+    margin: 3px;
+}
